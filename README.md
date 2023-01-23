@@ -11,6 +11,14 @@ This aim of the project is to optimize electroforming testing for nanodevices (m
 
 - Assess whether toy model has enough discriminatory capability to distinguish between the different outcomes taking into consideration the input parameters 
 
--Once the toy model works in simulation, transfer & test on real devices and observe.  
+- Once the toy model works in simulation, transfer & test on real devices and observe.  
 
 - Launch a downloadable module available for community to use. 
+
+### Progress
+
+#### Allstates: 
+Consists of all state transition models. Makes use of gaussian probablity distribution and sigma probablity distribution 
+#### MDP: 
+By taking the one state stransition model i.e (state I), Markov decision process is applyed to determine the next state for a given applied voltage. it returns next state with the probablity.
+
