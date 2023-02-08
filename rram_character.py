@@ -131,7 +131,7 @@ def main(args):
     print("Devices tested: ", len(_report))
     #print("State of Devices : ", _current)
     #print(" New State of Devices : ", _new)
-    print("Voltage : ", [d['voltage_applied'] for d in _report])
+    #print("Voltage : ", [d['voltage_applied'] for d in _report])
     print("Successful electroform: ", _successful_electroform)
     print("Failed devices: ", _failed_devices)
 
